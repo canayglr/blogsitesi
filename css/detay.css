@@ -1,0 +1,27 @@
+.arkaplan{
+    background: url(https://thumbs.gfycat.com/UntriedLightEidolonhelvum-size_restricted.gif) no-repeat center;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    margin-left: 500px;
+    align-self: center;
+}
+body{
+    text-align: center;
+}
+.bulundugukonum{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}

@@ -1,0 +1,83 @@
+body{
+    background-color: #212121;
+}
+.logo{
+    width:150px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size:25px;
+    margin:15px;
+    
+}
+.link{
+    margin-left:auto;
+    flex:1;
+    align-self: center;
+}
+a:hover{
+    background-color: white;
+    color:red;
+    border:3px solid gray;
+}
+nav{
+    display: flex;
+    background-color: white;
+
+}
+.oturum-islemleri{
+    align-self: center;
+}
+.card{
+    display: inline-block;
+    width: 25%;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 3px;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 50px;
+}
+.blogresmi{
+    border-radius: 50px;
+    width: 90%;
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+.blogresmi:hover{
+    transition: all 1s;
+    width: 100%;
+    filter: grayscale(0%);
+}
+.card>span{
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 4px;
+}
+.avatar{
+    width: 40px;
+    border-radius: 50px;
+    transition: all .2s;
+}
+.avatar:hover{
+    border: 3px solid black;
+    transition: all .2s;
+}
+.isim{
+    display: block;
+}
+small{
+    background-color: #212121;
+    color: white;
+}
+button{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: aqua;
+    border: none;
+    transition: all .2s;
+}
