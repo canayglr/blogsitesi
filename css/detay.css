@@ -1,16 +1,19 @@
 .arkaplan{
-    background: url(https://thumbs.gfycat.com/UntriedLightEidolonhelvum-size_restricted.gif) no-repeat center;
+    animation-name: animasyon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     height: 400px;
-    background-size: cover;
-    text-align: center;
     display: flex;
     align-items: center;
     background-attachment: fixed;
 }
-h1{
+.arkaplan h1{
     color: white;
     margin-left: 500px;
     align-self: center;
+}
+.detay h1{
+    text-align: start;
 }
 body{
     text-align: center;
@@ -24,4 +27,31 @@ body{
     font-size: 25px;
     font-weight: 500;
     padding: 10px;
+}
+.soltaraf{
+    width: 70%;
+}
+.sagtaraf{
+    width: 30%;
+}
+.detay{
+    text-align: start;
+    display: flex;
+}
+@keyframes animasyon {
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: red;}
+}
+i{
+    font-size: 9px;
+}
+small{
+    background-color: lightgreen;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
 }
